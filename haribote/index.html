@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ToDo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <article>
+        <header class="page-header">
+          <h1>ToDo</h1>
+        </header>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="btn-group">
+              <a class="btn btn-default active">
+                未完了
+              </a>
+              <a class="btn btn-default">
+                完了
+              </a>
+            </div>
+            <a class="btn btn-primary pull-right">
+              <span class="glyphicon glyphicon-plus"></span>
+            </a>
+          </div>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="col-md-8">概要</th>
+              <th class="col-md-2">期限</th>
+              <th class="col-md-2">操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="todo-item">
+              <td>簡易ToDoツール1号を作る</td>
+              <td>2015-01-25</td>
+              <td>
+                <a class="btn btn-default">
+                  <span class="glyphicon glyphicon-ok"></span>
+                </a>
+                <a class="btn btn-default">
+                  <span class="glyphicon glyphicon-edit"></span>
+                </a>
+                <a class="btn btn-default">
+                  <span class="glyphicon glyphicon-trash"></span>
+                </a>
+              </td>
+            </tr>
+            <tr class="todo-item">
+              <td>簡易ToDoツール2号を作る</td>
+              <td>2015-02-12</td>
+              <td>
+                <a class="btn btn-default">
+                  <span class="glyphicon glyphicon-ok"></span>
+                </a>
+                <a class="btn btn-default">
+                  <span class="glyphicon glyphicon-edit"></span>
+                </a>
+                <a class="btn btn-default">
+                  <span class="glyphicon glyphicon-trash"></span>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </row>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
